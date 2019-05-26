@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".entermechanic">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mechanicName"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        android:hint="NAME"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mechanicaddress"
+        android:inputType="text"
+        android:layout_below="@id/mechanicName"
+        android:hint="ADDRESS"
+        android:layout_marginTop="20dp"
+        />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionspinner"
+        android:layout_below="@+id/mechanicName">
+
+    </Spinner>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mechanicdescription"
+        android:inputType="text"
+        android:layout_below="@id/mechanicaddress"
+        android:hint="DESCRIPTION"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mechanicmobile"
+        android:inputType="number"
+        android:hint="MOBILE"
+        android:layout_below="@id/mechanicdescription"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mechanicmobile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/savingbutton"
+        android:text="save"
+        android:clickable="true"
+        />
+
+
+</RelativeLayout>

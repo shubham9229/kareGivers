@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "82281892265",
+    "firebase_url": "https://karegivers-eccd8.firebaseio.com",
+    "project_id": "karegivers-eccd8",
+    "storage_bucket": "karegivers-eccd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82281892265:android:0967805a7841e102",
+        "android_client_info": {
+          "package_name": "com.example.karegivers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82281892265-31du4s84feop5bb51um0870gs39dvp80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karegivers",
+            "certificate_hash": "6358590f85acbc0c441d9bea8d9415ab3841eeeb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO4aqBRbH-NdfNXnL73KwWHcV9-brDsBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82281892265-v9gfsgq1tucdgvp3co9vj7t3vb3msjj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

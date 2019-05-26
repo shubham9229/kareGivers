@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KareGivers</string>
+
+    <string-array name="Localities">
+        <item>Jalandhar</item>
+        <item>Phagwara Gate</item>
+        <item>Jyoti Chowk</item>
+        <item>Rainik Bazzar</item>
+        <item>Football Chowk</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>Electrician</item>
+        <item>Grocery Store</item>
+        <item>Laptop Repairing</item>
+        <item>Mobile Repairing</item>
+        <item>Pest Control</item>
+    </string-array>
+</resources>
